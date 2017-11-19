@@ -9,54 +9,13 @@ body {
 
 }
 
-/*Header*/
-#header {
-	/* background: tomato; */
-	font-family: 'Amatic SC', cursive;
-	opacity: 0.85;
-}
-.container {
-	width: 500px;
-	margin: 0 auto; /* set in  center */
-}
-
-/*Menu*/
-ul#menu {
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
-	font-size: 0;
-}
-ul#menu > li {
-	display: inline-block;
-}
-ul#menu > li > a{
-	display: inline-block;
-	width: 80px;
-	height: 40px;
-	background: orange;
-	font-size:16px;
-
-	text-decoration: none;
-	text-align: center;
-	line-height: 40px;
-}
-ul#menu > li > a:hover {
-	opacity: 0.7;
-	transition: 0.85s;
-}
-
-
 /*Main*/
 #main {
 	/* background-color: rgba(0, 212, 0, .3); */
 	font-family: 'Anton', sans-serif;
+	color: #fff;
+	text-align: center;
 	/* padding-bottom: 100px; */
 }
 
-/*Footer*/
-#footer {
-	/* background: skyblue; */
-	opacity: 0.7;
-	font-family: 'Cherry Swash', cursive;
-}
+
