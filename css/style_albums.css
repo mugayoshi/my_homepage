@@ -17,7 +17,7 @@
 ul#preview{
 	list-style-type: none;
 	}
-li.album {
+li#preview {
 	width: 500px;
 	margin-right: auto;
 }
@@ -34,5 +34,9 @@ li.album {
 
 }
 .slide_pic {
-	display: none;
+	/*display: none;*/
+}
+img.slide_pic {
+	width: 300px;
+	transform:rotate(180deg);
 }
