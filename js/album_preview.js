@@ -1,22 +1,30 @@
 (function () {
 	'use strict'
 	var prevIndex = 0;
-	console.log('before first showPreviews');
-	showPreviews();
+	var albums = ['italy1', 'spain', 'uk']
+	var i;
+	for (i = 0; i < albums.length; i++) {
+		showPreviews(albums[i], prevIndex);
+	}
 
-	function showPreviews() {
-		console.log('first line in showPreviews');
+	function showPreviews(album, internal_index) {
 		var i;
-		var slides = document.getElementsByClassName("slide_pic");
+		var slides = document.getElementsByClassName("slide_pic" + " " + album);
 		for (i = 0; i < slides.length; i++) {
 			slides[i].style.display = "none";
 		}
-		prevIndex++;
-		if (prevIndex > slides.length) {
-			prevIndex = 1;
+		// prevIndex++;
+		// if (prevIndex > slides.length) {
+		// 	prevIndex = 1;
+		// }
+		internal_index++;
+		if (internal_index > slides.length) {
+			internal_index= 1;
 		}
-		slides[prevIndex - 1].style.display = "block";
-		setTimeout(showPreviews, 2000);
+		//console.log('showPreviews ' + album + ', prevIndex =  ' + prevIndex);
+		console.log('showPreviews ' + album + ', prevIndex =  ' + internal_index);
+		slides[internal_index - 1].style.display = "block";
+		setTimeout(function(){showPreviews(album, internal_index)}, 2000);
 
 	}
 }());
