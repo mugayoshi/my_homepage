@@ -18,15 +18,17 @@ ul#preview{
 	list-style-type: none;
 	}
 li#preview {
-	width: 500px;
-	margin-right: auto;
+	width: 300px;
+	height: 300px;
+	margin-left: auto;
 }
 
 
 .button_bar {
 	/*background: rgba(104, 156, 157, 0.4); */
-	padding: 30px;
-	width: 300px;
+	padding: 10px;
+	width: 100%;
+	/*width: 500px;*/
 	height: 50px;
 	margin-left: auto;
 	margin-right: auto;
@@ -35,8 +37,68 @@ li#preview {
 }
 .slide_pic {
 	/*display: none;*/
+	animation-name: fade;
+	animation-duration: 3s;
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 img.slide_pic {
-	width: 300px;
-	transform:rotate(180deg);
+	/*width: 300px;*/
+	width: 100%;
+	/*height: auto;*/
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	max-width: 300px;
+	max-height: 300px;
+	border-radius: 5px;
+}
+section .container {
+	width: 100%;
+	margin: 0 auto;
+}
+.row {
+	width: 80%;
+	margin: 0 auto;
+}
+.bar {
+	font-size: 24px;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 100%;
+	/*width: 100%;*/
+	/*width: 700px;*/
+	height: 40px;
+	padding: 10px;
+	margin: 0 auto;
+	/*margin: 0 10px 10px;*/
+	background: rgba(255, 153, 204, 0.8);
+	border-radius: 5px;
+	text-align: center;
+	color: black;
+	font-family: 'Cherry Swash', cursive;
+}
+.row:not(:last-child){
+	border-bottom: 1px dashed gray;
+}
+h2, div.row p{
+	text-align: center;
+	margin: 0 auto;
+}
+div.row a {
+		text-decoration: none;
+		color: black;
+		/*font-family: 'Kaushan Script', cursive;*/
+		font-family: 'Cherry Swash', cursive;
+}
+div.row a:hover {
+	opacity: 0.5;
+}
+h2 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: 'Cherry Swash', cursive;
 }
