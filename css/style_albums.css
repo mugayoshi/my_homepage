@@ -41,8 +41,19 @@ li#preview {
 	animation-duration: 3s;
 }
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+	0% {
+		opacity:0;
+	}
+	45% {
+		opacity:0.3;
+	}
+	70% {
+			opacity:0.7;
+	}
+	100% {
+	opacity:1;
+	}
+
 }
 img.slide_pic {
 	/*width: 300px;*/
@@ -75,7 +86,6 @@ section .container {
 	padding: 10px;
 	margin: 0 auto;
 	/*margin: 0 10px 10px;*/
-	background: rgba(255, 153, 204, 0.8);
 	border-radius: 5px;
 	text-align: center;
 	color: black;
@@ -101,4 +111,14 @@ h2 {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	font-family: 'Cherry Swash', cursive;
+}
+
+body {
+	background-image: url("../img/sunset.jpeg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+
 }
