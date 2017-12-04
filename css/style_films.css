@@ -31,24 +31,29 @@ section {
 .film {
   width: 100%;
   height: 100%;
-  max-width: 500px;
-  max-height: 700px;
+  max-width: 800px;
+  max-height: 1000px;
+  min-width: 200px;
+  min-height: 200px;
 }
 .slide_pic {
   width: 80%;
   height: 100%;
 
-  max-width: 500px;
-  max-height: 700px;
 }
 
 .btn {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: rgba(63, 191, 146, .7);
   margin: auto;
+  font-size: 40px;
 }
 .btn:hover {
   opacity: 0.6;
   cursor: pointer;
+}
+.row h2 {
+  color: rgba(255,140,0, .9);
+}
+.film p {
+  padding-top: 10px;
+  font-size: 30px;
 }
