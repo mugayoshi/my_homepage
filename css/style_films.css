@@ -1,0 +1,43 @@
+body {
+  widht: 100%;
+  height: 100%;
+}
+
+section {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.container {
+  width: 100%;
+
+}
+.row {
+  width: 100%;
+  height: 90%;
+  text-align: center;
+  /*margin: 0 auto;*/
+}
+ul{
+	list-style-type: none;
+
+}
+.slide_pic {
+  display: none;
+  width: 80%;
+  height: 80%;
+
+  max-width: 500px;
+  max-height: 700px;
+}
+
+.btn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(63, 191, 146, .7);
+  margin: auto;
+}
+.btn:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
