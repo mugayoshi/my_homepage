@@ -1,8 +1,18 @@
 body {
   widht: 100%;
   height: 100%;
-}
+	background-image: url("../img/film.jpeg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
 
+}
+body * {
+	font-family: 'Cherry Swash', cursive;
+
+}
 section {
   display: inline-block;
   width: 100%;
@@ -18,14 +28,15 @@ section {
   text-align: center;
   /*margin: 0 auto;*/
 }
-ul{
-	list-style-type: none;
-
+.film {
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  max-height: 700px;
 }
 .slide_pic {
-  display: none;
   width: 80%;
-  height: 80%;
+  height: 100%;
 
   max-width: 500px;
   max-height: 700px;

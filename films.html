@@ -52,16 +52,30 @@
 		<section class="films">
 			<div class="container">
 				<div class="row">
+					<h2> My Favourite Films </h2>
+				</div>
+				<div class="row">
 					<div class="col-md-2 col-lg-3 btn" id="btn_prev">Prev <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i></div>
 					<div class="col-md-8 col-lg-6">
-						<ul id="album">
-							<li><img class="slide_pic" src="img/new_hope.jpg"></li>
-							<li><img class="slide_pic" src="img/empire.jpg"></li>
-							<li><img class="slide_pic" src="img/jedi.jpg"></li>
-							<li><img class="slide_pic" src="img/processed/1.jpg"></li>
-							<li><img class="slide_pic" src="img/processed/2.jpg"></li>
-							<li><img class="slide_pic" src="img/processed/3.jpg"></li>
-						</ul>
+						<div class="row">
+							<div class="film">
+							<img class="slide_pic" src="img/new_hope.jpg">
+								<p>Episode IV A New Hope</p>
+							</div>
+							<div class="film">
+								<img class="slide_pic" src="img/empire.jpg">
+								<p>Episode V The Empire Strikes Back</p>
+							</div>
+
+							<div class="film">
+								<img class="slide_pic" src="img/jedi.jpg">
+								<p>Episode VI Return of the Jedi</p>
+							</div>
+							<div class="film">
+								<img class="slide_pic" src="img/processed/1.jpg">
+								<p>ROME</p>
+							</div>
+						</div>
 					</div>
 					<div class="col-md-2 col-lg-3 btn" id="btn_next"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> Next</div>
 				</div>
@@ -71,11 +85,11 @@
 		<div id="footer">
 				created by Muga Yoshikawa
 		</div>
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 	 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="js/footerFixed.js"></script>
-		<script type="text/javascript" src="js/album_controller.js"></script>
+		<script type="text/javascript" src="js/films_controller.js"></script>
 
 
 	</body>
