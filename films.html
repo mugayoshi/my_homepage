@@ -52,42 +52,78 @@
 			  </div>
 			</nav>
 		</div>
-		<section class="films">
+
+		<div id="modal-content">
 			<div class="container">
 				<div class="row">
-					<h2> My Favourite Films</h2>
-				</div>
-				<div class="row">
-					<div class="col-md-2 col-lg-3 btn" id="btn_prev"><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i></div>
-					<div class="col-md-8 col-lg-6">
-						<div class="row">
-							<div class="film">
-							<img class="slide_pic" src="img/new_hope.jpg">
-								<p>Episode IV A New Hope</p>
-							</div>
-							<div class="film">
-								<img class="slide_pic" src="img/empire.jpg">
-								<p>Episode V The Empire Strikes Back</p>
-							</div>
-
-							<div class="film">
-								<img class="slide_pic" src="img/jedi.jpg">
-								<p>Episode VI Return of the Jedi</p>
-							</div>
-							<div class="film">
-								<img class="slide_pic" src="img/blade_runner2.jpg">
-								<p>Blade Runner</p>
-							</div>
-							<div class="film">
-								<img class="slide_pic" src="img/2049.jpg">
-								<p>Blade Runne 2049</p>
-							</div>
-						</div>
+					<div class="film">
+						<img class="slide_pic" src="img/new_hope.jpg">
+						<p>Episode IV A New Hope</p>
 					</div>
-					<div class="col-md-2 col-lg-3 btn" id="btn_next"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></div>
+					<div class="film">
+						<img class="slide_pic" src="img/empire.jpg">
+						<p>Episode V The Empire Strikes Back</p>
+					</div>
+
+					<div class="film">
+						<img class="slide_pic" src="img/jedi.jpg">
+						<p>Episode VI Return of the Jedi</p>
+					</div>
+					<div class="film">
+						<img class="slide_pic" src="img/blade_runner2.jpg">
+						<p>Blade Runner</p>
+					</div>
+					<div class="film">
+						<img class="slide_pic" src="img/2049.jpg">
+						<p>Blade Runner 2049</p>
+					</div>
+				</div>
+			<!-- <img src="img/2049.jpg">
+			<p>Blade Runner 2049</p> -->
+				<div class="row">
+					<p>「閉じる」か「背景」をクリックするとモーダルウィンドウを終了します。
+						<a id="modal-close" class="button-link"><i class="fa fa-times" aria-hidden="true"></i>閉じる</a>
+					</p>
+					<div class="btn" id="btn_prev"><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i></div>
+					<div class="btn" id="btn_next"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></div>
 				</div>
 			</div>
-		</section>
+		</div>
+		<div id= "modal-overlay"></div>
+		<!-- Page Content -->
+		<div class="container">
+
+			<h1 class="my-4 text-center text-lg-left">My Favourite Films</h1>
+
+			<div class="row text-center text-lg-left">
+
+				<div class="col-lg-3 col-md-4 col-xs-6">
+					<a href="#" class="d-block mb-4 h-100">
+						<img class="img-fluid img-thumbnail" src="img/new_hope.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6">
+					<a href="#" class="d-block mb-4 h-100">
+						<img class="img-fluid img-thumbnail" src="img/empire.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6">
+					<a href="#" class="d-block mb-4 h-100">
+						<img class="img-fluid img-thumbnail" src="img/jedi.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6">
+					<a href="#" class="d-block mb-4 h-100">
+						<img class="img-fluid img-thumbnail" src="img/blade_runner2.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6">
+					<a href="#" class="d-block mb-4 h-100">
+						<img class="img-fluid img-thumbnail" src="img/2049.jpg" alt="">
+					</a>
+				</div>
+
+			</div>
 
 		<div id="footer">
 				created by Muga Yoshikawa
