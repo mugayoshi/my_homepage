@@ -35,6 +35,7 @@
 	$(".img-thumbnail").click(function(){
 	// $("#modal-open").click(function(){
 		//[id:modal-open]をクリックしたら起こる処理
+		var overlay_visible = $("#modal-overlay").is(':visible');
 		console.log($("#modal-overlay").is(':visible'));
 		$(this).blur() ;	//ボタンからフォーカスを外す
 		if($("#modal-overlay").is(':visible') === true)
@@ -47,6 +48,15 @@
 			//[$modal-overlay]をフェードインさせる
 		console.log('before modal overlay fadein');
 		$("#modal-overlay").fadeIn("slow");
+		var pic_id = $(this).attr('id');
+
+		if (overlay_visible === false) {
+			var f = $(".film").get(currentPos);
+	    $(f).hide();
+			var f_selected = $(".film").get(pic_id);
+			$(f_selected).fadeIn(1000);
+			currentPos = pic_id;
+		}
 		console.log($("#modal-overlay").is(':visible'));
 		//[$modal-content]をフェードインさせる
 		centeringModalSyncer();
