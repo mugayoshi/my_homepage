@@ -87,7 +87,6 @@ def write_footer():
 
 def write_content():
   if len(sys.argv) < 2:
-
     return IndexHtml().write_films_content()
   elif 'film' in sys.argv[1]:
     return FilmsHtml().write_films_content()
@@ -108,6 +107,12 @@ def write_source_scripts():
                     'integrity': 'sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ',
                     'crossorigin': 'anonymous'}
   js_src = ['js/footerFixed.js']
+
+  if len(sys.argv) > 1 and 'film' in sys.argv[1]:
+    js_src.append('js/films_controller.js')
+    jquery_link = {'src': 'https://code.jquery.com/jquery-3.2.1.js',
+                 'integrity': 'sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=',
+                 'crossorigin': 'anonymous'}
 
   doc = Doc()
 
