@@ -56,11 +56,12 @@
 			var f_selected = $(".film").get(pic_id);
 			$(f_selected).fadeIn(1000);
 			currentPos = pic_id;
+			console.log('pic-id: ' + pic_id)
 		}
 		console.log($("#modal-overlay").is(':visible'));
 		//[$modal-content]をフェードインさせる
 		centeringModalSyncer();
-		console.log('left ' + $("#modal-content").css('left') + ', top: ' + $("#modal-content").css('top'));
+		console.log('currentpos = ' + currentPos + ' left ' + $("#modal-content").css('left') + ', top: ' + $("#modal-content").css('top'));
 		$("#modal-content").fadeIn("slow");
 	});
 
