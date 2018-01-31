@@ -1,0 +1,48 @@
+/*Body*/
+body {
+	background-image: url("../img/trees.jpeg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+
+}
+
+/*Main*/
+#main {
+	/* background-color: rgba(0, 212, 0, .3); */
+	margin-top: 30px;
+	padding-top: 10px;
+	font-family: 'Anton', sans-serif;
+	color: #fff;
+	text-align: center;
+	font-size: 60px;
+	/* padding-bottom: 100px; */
+}
+.container > .row {
+	text-align: center;
+}
+body a {
+	color: white;
+	text-decoration: underline;
+}
+p #link_top {
+	margin-top: -10px;
+	margin-right: 10px;
+}
+/* body a:hover {
+	color: blue;
+	text-decoration: none;
+} */
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url("../img/Glorious-Sunset-At-Beach-l.jpg");
+  }
+	#main {
+		font-size:30px;
+		text-align: center;
+	}
+
+}
