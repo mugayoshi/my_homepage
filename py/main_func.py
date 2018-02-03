@@ -57,7 +57,7 @@ def write_nav_bar():
     menu_links = {'Profile': 'profile.html', 'Albums': 'albums.html', 'Films': 'films.html'}
 
     with tag('div', id="header"):
-        with tag('nav', klass='navbar navbar-expand-lg navbar-dark bg-dark'):
+        with tag('nav', klass='navbar navbar-expand-md fixed-top navbar-dark bg-dark'):
             line('a', 'Muga\'s Page', klass='navbar-brand', href='#')
 
             with tag(

@@ -4,6 +4,8 @@
 	font-family: 'Cherry Swash', cursive;
 	opacity: 0.85;
 	/* margin: 0 auto; */
+	z-index: 1;
+	height: 50px;
 }
 .container {
 	width: 500px;

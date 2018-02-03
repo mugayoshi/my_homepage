@@ -1,12 +1,12 @@
 /*Body*/
 body {
-	background-image: url("../img/pexels-photo.jpeg");
+	background-image: url("../img/sunset_birds.jpg");
+
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	background-color: #464646;
-
 }
 
 /*Main*/
@@ -16,5 +16,16 @@ body {
 	color: #fff;
 	text-align: center;
 	font-size: 30px;
-	/* padding-bottom: 100px; */
+	/* padding-top: 50px; */
+}
+
+@media only screen and (min-width: 700px) {
+  body {
+    background-image: url("../img/pexels-photo.jpeg");
+  }
+	#main {
+		font-size:50px;
+		text-align: center;
+	}
+
 }
