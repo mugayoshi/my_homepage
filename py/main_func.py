@@ -58,7 +58,7 @@ def write_nav_bar():
 
     with tag('div', id="header"):
         with tag('nav', klass='navbar navbar-expand-md fixed-top navbar-dark bg-dark'):
-            line('a', 'Muga\'s Page', klass='navbar-brand', href='#')
+            line('a', 'Muga\'s Page', klass='navbar-brand', href='index.html')
 
             with tag(
                     'button', klass='navbar-toggler', type='button',
@@ -70,7 +70,7 @@ def write_nav_bar():
             with tag('div', klass='collapse navbar-collapse', id='navbarNavDropdown'):
                 with tag('ul', klass='navbar-nav'):
                     with tag('li', klass="nav-item active"):
-                        with tag('a', klass='nav-link', href='#'):
+                        with tag('a', klass='nav-link', href='index.html'):
                             text('HOME')
                             line('span', '(current)', klass='sr-only')
                     for k, l in menu_links.iteritems():
