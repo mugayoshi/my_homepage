@@ -1,10 +1,11 @@
 /*Header*/
-#header {
+header {
 	/* background: tomato; */
 	font-family: 'Cherry Swash', cursive;
 	opacity: 0.85;
 	/* margin: 0 auto; */
 	z-index: 1;
+	position: absolute;
 	height: 50px;
 }
 .container {

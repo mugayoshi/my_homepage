@@ -1,6 +1,6 @@
 /*Body*/
 body {
-	background-image: url("../img/trees.jpeg");
+	background-image: url("../img/trees.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -38,7 +38,7 @@ p #link_top {
 
 @media only screen and (max-width: 767px) {
   body {
-    background-image: url("../img/Glorious-Sunset-At-Beach-l.jpg");
+    background-image: url("../img/street_lights.jpg");
   }
 	#main {
 		font-size:30px;
