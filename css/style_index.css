@@ -1,6 +1,6 @@
 /*Body*/
 body {
-	background-image: url("../img/sunset_birds.jpg");
+	background-image: url("../img/pexels-photo.jpeg");
 
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -16,17 +16,15 @@ body {
 	color: #fff;
 	text-align: center;
 	font-size: 30px;
-	padding-top: 10px;
+	padding-top: 50px;
 }
 
 @media only screen and (min-width: 700px) {
-  body {
+  /* body {
     background-image: url("../img/pexels-photo.jpeg");
-  }
+  } */
 	#main {
 		font-size:50px;
-		text-align: center;
-		padding-top: 20px;
 	}
 
 }
