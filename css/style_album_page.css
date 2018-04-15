@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+.album_frame {
+  margin: 0 auto;
+  background-color: #3FBF92;
+  width: 100%;
+  height: 100%;
+}
+.slick-arrow {
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+}
+#slice_pic {
+  width: 80%;
+  height: 50%;
+  max-width: 500px;
+  max-height: 800px;
+}

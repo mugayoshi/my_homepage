@@ -26,6 +26,7 @@
 					<div class="film">
 						<img class="slide_pic" src="img/phantom_menace.jpeg">
 						<p>Episode I Phantom Menace</p>
+						<p>I watched this when I was 6 at theatre.</p>
 					</div>
 					<div class="film">
 						<img class="slide_pic" src="img/attack_clones.jpeg">
@@ -68,7 +69,7 @@
 			<!-- <img src="img/2049.jpg">
 			<p>Blade Runner 2049</p> -->
 				<div class="row">
-					<p>「閉じる」か「背景」をクリックするとモーダルウィンドウを終了します。
+					<p id="modal_dialog">「閉じる」か「背景」をクリックするとモーダルウィンドウを終了します。
 						<a id="modal-close" class="button-link"><i class="fa fa-times" aria-hidden="true"></i>閉じる</a>
 					</p>
 					<div class="btn" id="btn_prev"><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i></div>

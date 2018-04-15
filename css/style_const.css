@@ -1,0 +1,29 @@
+/*Body*/
+body {
+	background-image: url("../img/construction-construction-workers-create-159306.jpg");
+
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+}
+/*Main*/
+#main {
+	/* background-color: rgba(0, 212, 0, .3); */
+	font-family: 'Anton', sans-serif;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 50px;
+}
+
+@media only screen and (min-width: 700px) {
+  /* body {
+    background-image: url("../img/pexels-photo.jpeg");
+  } */
+	#main {
+		font-size:50px;
+	}
+
+}

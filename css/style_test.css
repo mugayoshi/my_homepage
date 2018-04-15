@@ -1,0 +1,49 @@
+/*Body*/
+body {
+	background-image: url("../img/sunset_birds.jpg");
+
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+}
+
+/*Main*/
+#main {
+	/* background-color: rgba(0, 212, 0, .3); */
+	font-family: 'Anton', sans-serif;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 10px;
+}
+.slides {
+	/* padding-left: 50px;
+	padding-right: 30px; */
+}
+.slides img {
+
+	/* width: 80%; */
+	height auto;
+
+}
+.slides p {
+	text-align: center;
+}
+.container {
+	padding: 70px;
+	/* padding: 50px; */
+	width:80%;
+}
+@media only screen and (min-width: 700px) {
+  body {
+    background-image: url("../img/pexels-photo.jpeg");
+  }
+	#main {
+		font-size:50px;
+		text-align: center;
+		padding-top: 20px;
+	}
+
+}

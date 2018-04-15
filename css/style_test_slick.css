@@ -1,0 +1,38 @@
+body {
+	width: 100%;
+	height: 100%;
+	/* background-color: gray; */
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	background-image: url("../img/blur-boardwalk-close-up-205002.jpg");
+
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+}
+.slides img {
+	width: 90%;
+	box-shadow: 10px 10px 5px grey;
+}
+.container {
+	padding-top: 100px;
+	padding-left: 30px;
+	width: 80%;
+}
+#caption {
+	color: white;
+	font-size: 30px;
+}
+
+/* for larger screen */
+@media only screen and (min-width: 700px) {
+	.container{
+		padding-top: 150px;
+	}
+	#caption{
+		font-size:40px;
+	}
+
+}
